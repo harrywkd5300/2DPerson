@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainFrame">
+      <UniqueIdentifier>{b1e7bcef-2c22-4b9a-b7b5-b08d621afb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyVIew">
+      <UniqueIdentifier>{2c28d6da-c69b-44b5-a114-095426027789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyVIew\00.MyForm">
+      <UniqueIdentifier>{942deb63-00b9-43b9-9159-60f11a3c547e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyVIew\01.MiniView">
+      <UniqueIdentifier>{5b76baeb-a9d5-4e0d-afd1-7fb712590939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager">
+      <UniqueIdentifier>{9c8ed009-d019-4eb0-b81b-4e89107421f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\00.Device">
+      <UniqueIdentifier>{675fdc85-fea6-43f1-a1d6-145d6340a9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\01.TextureMgr">
+      <UniqueIdentifier>{1627906b-5e6a-412b-a57f-d07d390642ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{73b8da4b-1ed7-4ab4-ae22-7f18c7f72205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="99.Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99.Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="03.Texture">
+      <UniqueIdentifier>{44c37b73-db2b-4702-84cd-0e1650265075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Texture\00.SingleTexture">
+      <UniqueIdentifier>{b455a97a-75b2-4ed0-997e-9cd157b073e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Texture\01.MultiTexture">
+      <UniqueIdentifier>{41a0ab72-10d2-4cc5-bb3c-2c92ee5eade0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Obj">
+      <UniqueIdentifier>{cb3be618-ab0d-4fc9-a141-36efc2454645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Obj\00.MainGround">
+      <UniqueIdentifier>{d6728f4a-68d9-44de-bda5-44d42574adc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Obj\01.Mouse">
+      <UniqueIdentifier>{5f177e44-83cd-451c-ab10-f7c59061d30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyVIew\02.MapTool">
+      <UniqueIdentifier>{77305141-04c7-4b87-8760-207230fbb913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyVIew\03.ObjectTool">
+      <UniqueIdentifier>{07c66cdc-279d-4191-af4b-1e8c8c3f9d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyVIew\04.MonsterTool">
+      <UniqueIdentifier>{0b8b0fef-db65-4952-bf84-a4f0ec8f853e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC76View.cpp">
+      <Filter>01.MyVIew</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>01.MyVIew\00.MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>01.MyVIew\01.MiniView</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>02.Manager\00.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>02.Manager\01.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC76.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC76Doc.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>03.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>03.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>03.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>04.Obj\00.MainGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>04.Obj\01.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMapTool.cpp">
+      <Filter>01.MyVIew\02.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectTool.cpp">
+      <Filter>01.MyVIew\03.ObjectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterTool.cpp">
+      <Filter>01.MyVIew\04.MonsterTool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC76View.h">
+      <Filter>01.MyVIew</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>01.MyVIew\00.MyForm</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>01.MyVIew\01.MiniView</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>02.Manager\00.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>02.Manager\01.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC76.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC76Doc.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>03.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>03.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>03.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>04.Obj\00.MainGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>04.Obj\01.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMapTool.h">
+      <Filter>01.MyVIew\02.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTool.h">
+      <Filter>01.MyVIew\03.ObjectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterTool.h">
+      <Filter>01.MyVIew\04.MonsterTool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFC76.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\MFC76Doc.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFC76.rc">
+      <Filter>99.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFC76.rc2">
+      <Filter>99.Default\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

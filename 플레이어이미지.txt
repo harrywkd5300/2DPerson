@@ -1,0 +1,15 @@
+오른손 0번
+오른팔 1번 0
+다리   2번
+상체   3번
+머리   4번
+왼쪽손 5번
+왼쪽팔 6번
+
+Beauti_Body
+Beauti_Head
+Dragon_Body
+Dragon_Head
+
+Gumangdo
+ThunderGun

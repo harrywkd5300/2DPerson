@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{888b1329-833a-4aa8-984c-eb5f8bb27404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{65da56f8-144f-47b8-a611-24a70324bde6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.BackGround">
+      <UniqueIdentifier>{6b06876f-ee02-41f9-8580-97523076f5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Player">
+      <UniqueIdentifier>{31552466-7ea6-4592-8004-b8920afdd3f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Effect">
+      <UniqueIdentifier>{f1116f07-e2a4-43a0-b3ab-bd90a5940fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.UiInterface">
+      <UniqueIdentifier>{bea2482d-8db4-48e2-9c08-731cd6d3fd88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{3bdace1e-fd49-4ce2-8837-7566a07a06cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\00.Logo">
+      <UniqueIdentifier>{d0700a65-9ee4-417b-b36d-453aa12fc7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.Stage">
+      <UniqueIdentifier>{f1bbf120-27cf-457b-a321-d615639fbd7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{21ff67f3-a4c1-4faf-8911-a37db71befe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="99.Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="98,Manager">
+      <UniqueIdentifier>{597dd82a-adb7-4554-8311-35aa12a7aa31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98,Manager\01.TextureMgr">
+      <UniqueIdentifier>{6f3b8b19-1ac0-45cd-81f2-70c4206326e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98,Manager\02.SceneMgr">
+      <UniqueIdentifier>{beaa3792-5b8c-4d69-9080-5e289321c199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98,Manager\03.ObjMgr">
+      <UniqueIdentifier>{41f6ba7b-15ba-4e1f-84f3-2aed1e5e3448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98,Manager\04.Factory">
+      <UniqueIdentifier>{26b13f7a-5492-46bd-b065-a9acfd507b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98,Manager\05.TimeMgr">
+      <UniqueIdentifier>{37c0afca-b8ba-484c-8281-3c18c78b92b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98,Manager\06.KeyMgr">
+      <UniqueIdentifier>{f8226b20-d970-4caf-b067-0566f421c158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98,Manager\07.AStar">
+      <UniqueIdentifier>{c23da706-6fde-4fdd-a4f7-915363c321b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Device">
+      <UniqueIdentifier>{4be566d4-0cd8-461d-84a7-6dcb62fc06be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Texture">
+      <UniqueIdentifier>{7759053b-7164-4c36-9ccb-a3896ff5161d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Texture\00.SingleTexture">
+      <UniqueIdentifier>{732bc716-c350-42c8-8c2e-3ccdf54be741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Texture\01.MultiTexture">
+      <UniqueIdentifier>{4f62e2f3-91fa-4679-9c30-468ba7b25dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design">
+      <UniqueIdentifier>{80ddd94f-ad17-4f55-a6d7-5a367a7976f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design\00.Bridge">
+      <UniqueIdentifier>{1c8e44b1-f008-4768-b705-e8a7cba6fa86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design\00.Bridge\00.EffectBridge">
+      <UniqueIdentifier>{825fc1c8-7531-4627-b941-30a64f5e06be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design\00.Bridge\01.EffectBuffer">
+      <UniqueIdentifier>{7c741655-2531-43d8-a634-f0d3ff663da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design\01.Observer">
+      <UniqueIdentifier>{1f641641-1446-497c-a4d8-2178985fbc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design\01.Observer\00.Subject">
+      <UniqueIdentifier>{93be2cf1-fad8-49f6-a0e5-d5898872631f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design\01.Observer\00.Subject\00.DataSubject">
+      <UniqueIdentifier>{9c00e7b6-c5ad-4a5f-aadf-932a8eba2203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design\01.Observer\01.UiObserver">
+      <UniqueIdentifier>{201f3684-9b13-4ae2-9044-d7f58044f879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Object">
+      <UniqueIdentifier>{8590adfb-866c-4531-9b6f-1e7f8ba93c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.Monster">
+      <UniqueIdentifier>{694099d5-882d-43db-94de-236285af01aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit">
+      <UniqueIdentifier>{2c1ba926-2129-446e-ba89-fb3802bafafe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit\00.LeeSoonsin">
+      <UniqueIdentifier>{65ad7967-7e9f-46d3-8534-e0b258d2690a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit\01.SoonbiYean">
+      <UniqueIdentifier>{3584bd3a-ca84-4c9b-893e-7f56a79c79a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit\02.Dragon">
+      <UniqueIdentifier>{2ae3606b-160e-49bf-94a4-47be673213df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit\03.Tiger">
+      <UniqueIdentifier>{b0fc4beb-853a-4981-9105-3cb17fd3657d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit\04.FireBird">
+      <UniqueIdentifier>{c67faf67-c483-499b-b1ec-8989e5a224b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit\05.Turtle">
+      <UniqueIdentifier>{bf29efc5-986c-4f34-af82-b77bbb5ffce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit\06.Jiguk">
+      <UniqueIdentifier>{87bb78df-d1d1-4b2e-8eb0-f54152ffbe9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit\07.Damoon">
+      <UniqueIdentifier>{4947896a-fa2c-4387-b841-8087b674c5a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit\08.Guangmok">
+      <UniqueIdentifier>{cb4a0b9e-006e-43c1-97f1-1e296e920a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Unit\09.Jeungjang">
+      <UniqueIdentifier>{c50a0d64-0005-4247-981b-1977fb499e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.City">
+      <UniqueIdentifier>{9e56c97c-3930-4418-9db9-ffbd19c35052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.BackGround\00.Field">
+      <UniqueIdentifier>{3b414198-25d7-419b-95ae-2e7dc1f61755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.BackGround\01.City">
+      <UniqueIdentifier>{dd3eb367-0f58-47b7-a99a-7a474f4629d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="01.GameObject\00.BackGround\01.City\01.Shop">
+      <UniqueIdentifier>{11b0233e-f7a0-4801-8d2f-9da044eafa6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.BackGround\01.City\00.Bank">
+      <UniqueIdentifier>{db070454-b9bc-4e24-994c-e10598058ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.BackGround\01.City\02.employshop">
+      <UniqueIdentifier>{e6687ef8-a869-40fe-a7e0-f4b9b8dd710a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Object\00.Tower">
+      <UniqueIdentifier>{5a1d7644-7c8b-4df6-8ec0-467357879639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Object\01.Portrait">
+      <UniqueIdentifier>{4d3ee743-5f9a-4bfe-ad4e-0cb0b7980365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\04.Battle">
+      <UniqueIdentifier>{8ee7b3c0-a87d-4a3b-bf68-f2807c57a728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Object\03.Mouse">
+      <UniqueIdentifier>{91562032-1827-487f-8d89-890b9cc18fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility">
+      <UniqueIdentifier>{e59e8cc6-8bd2-4387-923a-917ea538d01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\00.Frame">
+      <UniqueIdentifier>{fc6f08e3-a60b-432c-90bd-deb101be67b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\01.Timer">
+      <UniqueIdentifier>{6ec19a0b-83b1-4167-9d63-26daba929420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\01.Timer\00.Manager">
+      <UniqueIdentifier>{cb4dd7cd-1033-4bec-97d8-a18e83a59d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\01.Timer\01.Time">
+      <UniqueIdentifier>{a334cf2a-9bd6-47db-a143-0df3dc026a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\00.Frame\00.Manager">
+      <UniqueIdentifier>{8d1c5830-574e-42d9-bca1-e5d9248abfc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\00.Frame\01.Frame">
+      <UniqueIdentifier>{aedf0664-0e0c-4e2a-bc11-703153c879b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.UiInterface\02.MainUI">
+      <UniqueIdentifier>{9e05dfa2-35b2-4e06-9113-9a96b33279fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.UiInterface\02.MainUI\00.SteminaBar">
+      <UniqueIdentifier>{328b0e6d-8693-420b-a585-d5f2c47d4861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.UiInterface\03.Inventory">
+      <UniqueIdentifier>{019d6f40-bdf0-4558-b9f7-e2a864c506cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Object\02.Item">
+      <UniqueIdentifier>{3ee4f6c3-8e6d-4a47-88f1-e1d809331342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.UiInterface\04.BattleCount">
+      <UniqueIdentifier>{11111768-7186-4689-9dd2-e4f21bc26a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.UiInterface\04.BattleCount\00.Count">
+      <UniqueIdentifier>{34b12b4f-c8cd-4763-b28c-e477df499fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98,Manager\08.SoundMgr">
+      <UniqueIdentifier>{d46d032b-9590-47c1-b072-5bf4dc30f001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Object\03.Mouse\00.MouseClick">
+      <UniqueIdentifier>{94f71ea6-584f-45c4-b954-03437cfb3927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.UiInterface\05.Winner">
+      <UniqueIdentifier>{cafe182e-5012-4628-afb2-f43512f76882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Effect\00.Bomb">
+      <UniqueIdentifier>{8dc6627a-6b2e-46bb-932c-8ecba4e81762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Effect\01.Thunder">
+      <UniqueIdentifier>{e733baf2-3f7a-4683-a3f9-944a27303b08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.GameObject\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="UiInterface.cpp">
+      <Filter>01.GameObject\03.UiInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>02.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>02.Scene\01.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01.GameObject\04.Object\03.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>98,Manager\01.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>98,Manager\02.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>98,Manager\03.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>98,Manager\04.Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>98,Manager\05.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>98,Manager\06.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Astar.cpp">
+      <Filter>98,Manager\07.AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>97.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>96.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>96.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>96.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>95.Design\00.Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBridge.cpp">
+      <Filter>95.Design\00.Bridge\00.EffectBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBuffer.cpp">
+      <Filter>95.Design\00.Bridge\01.EffectBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>95.Design\01.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>95.Design\01.Observer\00.Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSubject.cpp">
+      <Filter>95.Design\01.Observer\00.Subject\00.DataSubject</Filter>
+    </ClCompile>
+    <ClCompile Include="UiObserver.cpp">
+      <Filter>95.Design\01.Observer\01.UiObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01.GameObject\03.UiInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.GameObject\05.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="LeeSoonsin.cpp">
+      <Filter>01.GameObject\06.Unit\00.LeeSoonsin</Filter>
+    </ClCompile>
+    <ClCompile Include="Sunbiyean.cpp">
+      <Filter>01.GameObject\06.Unit\01.SoonbiYean</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>01.GameObject\06.Unit\02.Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiger.cpp">
+      <Filter>01.GameObject\06.Unit\03.Tiger</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBird.cpp">
+      <Filter>01.GameObject\06.Unit\04.FireBird</Filter>
+    </ClCompile>
+    <ClCompile Include="Turtle.cpp">
+      <Filter>01.GameObject\06.Unit\05.Turtle</Filter>
+    </ClCompile>
+    <ClCompile Include="Jiguk.cpp">
+      <Filter>01.GameObject\06.Unit\06.Jiguk</Filter>
+    </ClCompile>
+    <ClCompile Include="Damoon.cpp">
+      <Filter>01.GameObject\06.Unit\07.Damoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Jeungjang.cpp">
+      <Filter>01.GameObject\06.Unit\09.Jeungjang</Filter>
+    </ClCompile>
+    <ClCompile Include="Guangmok.cpp">
+      <Filter>01.GameObject\06.Unit\08.Guangmok</Filter>
+    </ClCompile>
+    <ClCompile Include="City.cpp">
+      <Filter>02.Scene\03.City</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>01.GameObject\00.BackGround\00.Field</Filter>
+    </ClCompile>
+    <ClCompile Include="CityBackGround.cpp">
+      <Filter>01.GameObject\00.BackGround\01.City</Filter>
+    </ClCompile>
+    <ClCompile Include="Employshop.cpp">
+      <Filter>01.GameObject\00.BackGround\01.City\02.employshop</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>01.GameObject\04.Object\00.Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Portrait.cpp">
+      <Filter>01.GameObject\04.Object\01.Portrait</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>02.Scene\04.Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>94.Utility\01.Timer\01.Time</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI.cpp">
+      <Filter>01.GameObject\03.UiInterface\02.MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SteminaBar.cpp">
+      <Filter>01.GameObject\03.UiInterface\02.MainUI\00.SteminaBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>01.GameObject\03.UiInterface\03.Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer_manager.cpp">
+      <Filter>94.Utility\01.Timer\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>94.Utility\00.Frame\01.Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_manager.cpp">
+      <Filter>94.Utility\00.Frame\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>01.GameObject\00.BackGround\01.City\01.Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>01.GameObject\04.Object\02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleCount.cpp">
+      <Filter>01.GameObject\03.UiInterface\04.BattleCount</Filter>
+    </ClCompile>
+    <ClCompile Include="Count.cpp">
+      <Filter>01.GameObject\03.UiInterface\04.BattleCount\00.Count</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>98,Manager\08.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseClick.cpp">
+      <Filter>01.GameObject\04.Object\03.Mouse\00.MouseClick</Filter>
+    </ClCompile>
+    <ClCompile Include="Winer.cpp">
+      <Filter>01.GameObject\03.UiInterface\05.Winner</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>01.GameObject\02.Effect\00.Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Thunder.cpp">
+      <Filter>01.GameObject\02.Effect\01.Thunder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.GameObject\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="UiInterface.h">
+      <Filter>01.GameObject\03.UiInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>02.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>02.Scene\01.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01.GameObject\04.Object\03.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>98,Manager\01.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>98,Manager\02.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>98,Manager\03.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>98,Manager\04.Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>98,Manager\05.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>98,Manager\06.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Astar.h">
+      <Filter>98,Manager\07.AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>97.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>96.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>96.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>96.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>95.Design\00.Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBridge.h">
+      <Filter>95.Design\00.Bridge\00.EffectBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBuffer.h">
+      <Filter>95.Design\00.Bridge\01.EffectBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>95.Design\01.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>95.Design\01.Observer\00.Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSubject.h">
+      <Filter>95.Design\01.Observer\00.Subject\00.DataSubject</Filter>
+    </ClInclude>
+    <ClInclude Include="UiObserver.h">
+      <Filter>95.Design\01.Observer\01.UiObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.GameObject\05.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="LeeSoonsin.h">
+      <Filter>01.GameObject\06.Unit\00.LeeSoonsin</Filter>
+    </ClInclude>
+    <ClInclude Include="Sunbiyean.h">
+      <Filter>01.GameObject\06.Unit\01.SoonbiYean</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>01.GameObject\06.Unit\02.Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiger.h">
+      <Filter>01.GameObject\06.Unit\03.Tiger</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBird.h">
+      <Filter>01.GameObject\06.Unit\04.FireBird</Filter>
+    </ClInclude>
+    <ClInclude Include="Turtle.h">
+      <Filter>01.GameObject\06.Unit\05.Turtle</Filter>
+    </ClInclude>
+    <ClInclude Include="Jiguk.h">
+      <Filter>01.GameObject\06.Unit\06.Jiguk</Filter>
+    </ClInclude>
+    <ClInclude Include="Damoon.h">
+      <Filter>01.GameObject\06.Unit\07.Damoon</Filter>
+    </ClInclude>
+    <ClInclude Include="Jeungjang.h">
+      <Filter>01.GameObject\06.Unit\09.Jeungjang</Filter>
+    </ClInclude>
+    <ClInclude Include="Guangmok.h">
+      <Filter>01.GameObject\06.Unit\08.Guangmok</Filter>
+    </ClInclude>
+    <ClInclude Include="City.h">
+      <Filter>02.Scene\03.City</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>01.GameObject\00.BackGround\00.Field</Filter>
+    </ClInclude>
+    <ClInclude Include="CityBackGround.h">
+      <Filter>01.GameObject\00.BackGround\01.City</Filter>
+    </ClInclude>
+    <ClInclude Include="Employshop.h">
+      <Filter>01.GameObject\00.BackGround\01.City\02.employshop</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>01.GameObject\04.Object\00.Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Portrait.h">
+      <Filter>01.GameObject\04.Object\01.Portrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>02.Scene\04.Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>94.Utility\01.Timer\01.Time</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUI.h">
+      <Filter>01.GameObject\03.UiInterface\02.MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SteminaBar.h">
+      <Filter>01.GameObject\03.UiInterface\02.MainUI\00.SteminaBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>01.GameObject\03.UiInterface\03.Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer_manager.h">
+      <Filter>94.Utility\01.Timer\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>94.Utility\00.Frame\01.Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_manager.h">
+      <Filter>94.Utility\00.Frame\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>01.GameObject\00.BackGround\01.City\01.Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>01.GameObject\04.Object\02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleCount.h">
+      <Filter>01.GameObject\03.UiInterface\04.BattleCount</Filter>
+    </ClInclude>
+    <ClInclude Include="Count.h">
+      <Filter>01.GameObject\03.UiInterface\04.BattleCount\00.Count</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>98,Manager\08.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseClick.h">
+      <Filter>01.GameObject\04.Object\03.Mouse\00.MouseClick</Filter>
+    </ClInclude>
+    <ClInclude Include="Winer.h">
+      <Filter>01.GameObject\03.UiInterface\05.Winner</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>01.GameObject\02.Effect\00.Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Thunder.h">
+      <Filter>01.GameObject\02.Effect\01.Thunder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
